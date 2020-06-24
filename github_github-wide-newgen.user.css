@@ -25,6 +25,7 @@ span.hidden-text-expander.d-inline-block.ml-2 { display: none!important; }
 .Box ul li.Box-row { margin-left: 10px }
 .dashboard .news div .push, .dashboard .news div .follow, .dashboard .news div .fork, .dashboard .news div .public, .dashboard .news div .repo, .dashboard .news div .watch_started { margin-left: 50px }
 }
+a#gitpod-btn-nav { padding: 5px 17.5px; font-size: 14px; font-weight: 500; line-height: 20px; }
 
 @-moz-document domain("help.github.com") {
 .width-full { padding-left: 40px!important; padding-right: 0px!important; width: 100% !important; }
