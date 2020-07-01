@@ -34,7 +34,7 @@
 	span.js-updating-pull-request-commits-count { color: #fff800; }
 	a.author.link-gray.text-bold.css-truncate.css-truncate-target.expandable.ghh-user-x.tooltipstered { margin-top: 0.1%; }
 	.diffbar .float-left { margin-left: 0.5rem; }
-	.diffbar .float-right { margin-right: 0.2rem; }
+	.d-flex.flex-items-center.flex-wrap.flex-justify-between.flex-md-justify-start .float-right, .diffbar .float-right { margin-right: 0.2rem; }
 	.gh-header-show .gh-header-actions .float-right { margin-right: 0.2rem; }
 @-moz-document domain("help.github.com") {
 	.width-full { padding-left: 40px!important; padding-right: 0px!important; width: 100% !important; }
