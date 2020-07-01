@@ -29,6 +29,8 @@
 	.footer .flex-wrap ul, .footer .flex-justify-between ul { padding-left: 250px!important; padding-right: 240px!important; }
 	.Box ul li.Box-row { margin-left: 10px }
 	.dashboard .news div .push, .dashboard .news div .follow, .dashboard .news div .fork, .dashboard .news div .public, .dashboard .news div .repo, .dashboard .news div .watch_started { margin-left: 50px } }
+	span.js-issue-title.rgh-formatted-title { margin-left: 10px; }
+	.TableObject.gh-header-meta { margin-left: 8px; }
 @-moz-document domain("help.github.com") {
 	.width-full { padding-left: 40px!important; padding-right: 0px!important; width: 100% !important; }
 	.border-bottom { margin-right: 10px!important; }
