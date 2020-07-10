@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        github-wide-newgen
 @namespace   koumaza
-@version     1.2.0
+@version     1.3.0
 @homepageURL https://github.com/koumaza/github-wide-newgen.git
 @updateURL   https://raw.githubusercontent.com/koumaza/github-wide-newgen/master/github-wide-newgen.user.css
 @license     WTFPL(PublicDomain)
@@ -36,6 +36,14 @@
 	.diffbar .float-left { margin-left: 0.5rem; }
 	.d-flex.flex-items-center.flex-wrap.flex-justify-between.flex-md-justify-start .float-right, .diffbar .float-right { margin-right: 0.2rem; }
 	.gh-header-show .gh-header-actions .float-right { margin-right: 0.2rem; }
+	body:not(.full-width):not(.enterprise) .repohead > * { padding-left: 0px!important; margin-bottom: 0px!important }
+	.zh-navbar-link { display: flex; align-items: center; white-space: nowrap!important; border-radius: 6px 6px 0 0; line-height: 30px; min-height: 5px!important; padding: 0.09rem 0.8rem!important; }
+	.zh-navbar-link[aria-current]:not([aria-current="false"]) { border-bottom-color: var(--base-color) !important; }
+	.UnderlineNav-item.mr-0.border-0 { padding: 0px!important }
+	.file-navigation.mb-3.d-flex.flex-items-start { margin-bottom: 10px!important; }
+	.pagehead { padding-bottom: 0rem!important; margin-bottom: 0.8rem!important; }
+	.zh-repo-switcher-modal.zh-select-menu-modal-holder.js-menu-content { position: fixed; margin-right: 70%; }
+	.Details-content--hidden-not-important.js-navigation-container > .py-2 { padding-top: 0.25rem!important; padding-bottom: 0.25rem!important; }
 @-moz-document domain("help.github.com") {
 	.width-full { padding-left: 40px!important; padding-right: 0px!important; width: 100% !important; }
 	.border-bottom { margin-right: 10px!important; }
