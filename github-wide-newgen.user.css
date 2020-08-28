@@ -50,3 +50,5 @@
 	svg { stroke: #F05!important; }
 	.octicon { stroke: none!important; }
 	.article-grid-container { grid-template-columns: minmax(80px, 100000px) minmax(20px, 235px); column-gap: 35px; } }
+	.diff-table > tbody > tr[data-hunk]:hover > td[style="background-color: khaki;"] { background-color: black !important }
+	table > tbody > tr > td[style="background-color: khaki;"] { background-color: black !important; }
