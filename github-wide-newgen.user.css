@@ -105,6 +105,9 @@
 		background-color: #000000aa;
 		pointer-events: none;
 	}
+	.js-notifications-container > div {
+		margin-top: 1.2rem;
+	}
 @-moz-document domain("help.github.com") {
 	.width-full { padding-left: 40px!important; padding-right: 0px!important; width: 100% !important; }
 	.border-bottom { margin-right: 10px!important; }
