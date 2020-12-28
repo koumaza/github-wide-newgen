@@ -18,5 +18,5 @@
 2. Install UserCSS
   <br><br>
   [![install-ghwide](https://img.shields.io/badge/install:ghwide--newgen-v3.x.x-green)](https://raw.githubusercontent.com/koumaza/github-wide-newgen/master/github-wide-newgen.user.css)
-  <br>And<br>
+  <br>And<br><br>
   [![install-fixedfixed](https://img.shields.io/badge/install:fixed--header-v2.x.x-blue)](https://raw.githubusercontent.com/koumaza/github-wide-newgen/master/github-wide-newgen.user.css)
