@@ -10,7 +10,7 @@
 
 @-moz-document domain("github.com") {
 	.container-lg { max-width: 10000000px; }
-	.container-xl { max-width: 10000000px; padding-left: 5px!important; padding-right: 5px!important; }
+	.container-xl, .px-lg-5 { max-width: 10000000px; padding-left: 5px!important; padding-right: 5px!important; }
 	#js-repo-pjax-container .UnderlineNav { padding-left: 5px!important; padding-right: 5px!important; max-height: 35px!important; }
 	.pagehead { padding-bottom: 0px!important; margin-bottom: 20px!important; }
 	.gutter-lg { margin-right: -0px!important; margin-left: -0px!important; padding-right: -100px!important; padding-left: -100px!important; }
@@ -120,6 +120,18 @@
 	[aria-label="Explore navigation"] {
 		margin-top: 2.4rem;
 	}
+.BorderGrid-cell {
+    border: none;
+}
+.BorderGrid-row[hidden][hidden] {
+    display: grid!important;
+}
+#js-repo-pjax-container > div:nth-child(1) > div {
+    margin-left: -16.5%;
+}
+body > div.application-main > div > main > div:nth-child(1) {
+    margin-top: 1.8rem;
+}
 @-moz-document domain("help.github.com") {
 	.width-full { padding-left: 40px!important; padding-right: 0px!important; width: 100% !important; }
 	.border-bottom { margin-right: 10px!important; }
