@@ -4,7 +4,7 @@
 
 <br>Following myself
 
-![version](https://img.shields.io/badge/version-1.x.x-blue)
+![version](https://img.shields.io/badge/version-3.x.x-blue)
 <br><br>
 ## Install-Theme
 1. Install [Stylus](https://add0n.com/stylus.html) of Browser Extension for
@@ -16,4 +16,6 @@
     A. I like Beta version
     - [Chrome](https://chrome.google.com/webstore/detail/stylus-beta/apmmpaebfobifelkijhaljbmpcgbjbdo)
 2. Install UserCSS
-  <br><br>[![install](https://img.shields.io/badge/install-v1.x.x-green)](https://raw.githubusercontent.com/koumaza/github-wide-newgen/master/github-wide-newgen.user.css)
+  <br><br>[![install-ghwide](https://img.shields.io/badge/install:ghwide--newgen-v3.x.x-green)](https://raw.githubusercontent.com/koumaza/github-wide-newgen/master/github-wide-newgen.user.css)
+  <br>And
+  <br><br>[![install-fixedfixed](https://img.shields.io/badge/install:fixed--header-v2.x.x-blue)](https://raw.githubusercontent.com/koumaza/github-wide-newgen/master/github-wide-newgen.user.css)
