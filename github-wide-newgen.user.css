@@ -10,7 +10,7 @@
 
 @-moz-document domain("github.com") {
 	.container-lg { max-width: 10000000px; }
-	.container-xl, .px-lg-5 { max-width: 10000000px; padding-left: 5px!important; padding-right: 5px!important; }
+	.container-xl { max-width: 10000000px; padding-left: 5px!important; padding-right: 5px!important; }
 	#js-repo-pjax-container .UnderlineNav { padding-left: 5px!important; padding-right: 5px!important; max-height: 35px!important; }
 	.pagehead { padding-bottom: 0px!important; margin-bottom: 20px!important; }
 	.gutter-lg { margin-right: -0px!important; margin-left: -0px!important; padding-right: -100px!important; padding-left: -100px!important; }
